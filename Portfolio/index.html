@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nice</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+
+    <div id="header">
+            <div class="container">
+                <nav>
+                    <ul>
+                        <li><a href="#header" onclick="showHome()" >Home</a></li>
+                        <li><a href="#about" onclick="showEducation()">About Me</a></li>
+                        <li><a href="#images" onclick="showImages()">Images</a></li>
+                        <li><a href="#contacts" onclick="showContacts()">Contact Me</a></li>
+                    </ul>
+                </nav>
+                <div class="header-text">
+                    <p>Developer</p>
+                    <h1>Hi, I'm <span>Nic Anthony </span><br>
+                    Adornado studying at MSU-IIT</h1>
+                </div>
+            </div>
+
+    </div>
+  <!-- ----------------about------------ -->
+    <div id="about">
+        <nav>
+            <ul>
+                <li><a href="#header" onclick="showHome()" class="home">Home</a></li>
+                <li><a href="#about" onclick="showEducation()" class="educ">About Me</a></li>
+                <li><a href="#images" onclick="showImages()" class="image">Images</a></li>
+                <li><a href="#contacts" onclick="showContacts()" class="cont">Contact Me</a></li>
+            </ul>
+        </nav>
+            <div class="container">
+                <div class="row">
+                    <div class="col-1">
+                        <img src="images/img6.jpg" height="550">
+                    </div>
+                    <div class="col-2">
+                        <h1 class="me">About Me</h1>
+                        <p>Hi I'm Nic Anthony Adornado and I'm currently 
+                            studying at MSU-IIT taking up BS in Information 
+                            Technology. I have a love of Mathematics and 
+                            Technology. I graduated High School at MSUN-IDS 
+                            taking up STEM in SHS. I play many sports such as 
+                            badminton, softball, and volleyball. I live in 
+                            Manticao, Misamis Oriental and I'm 18 years old. 
+                            My hobbies are playing badminton, watching anime, 
+                            and playing online games. I took up a course in CCS 
+                            since I have an interest in technology. Ever since I 
+                            was a kid I was exposed to computers since my family
+                            owned a computer shop. Ever since then from time to time 
+                            I would tinker parts of CPU.</p>
+                        <div class="tabs">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                            <p class="tab-links" onclick="opentab('facts')">Facts</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Math</span><br>Calculus<br>Discrete/Logic Math</li>
+                                <li><span>Web Development</span><br>Website Development</li>
+                                <li><span>Science</span><br>Chemistry</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>Elementary</span><br>Manticao Central School</li>
+                                <li><span>Junior High School</span><br> MSUN-IDS</li>
+                                <li><span>Senior High School</span><br>MSUN-IDS</li>
+                                <li><span>College/Current</span><br>MSU-IIT</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="facts">
+                            <ul>
+                                <li><span>Sports</span><br>Badminton<br>Volleyball<br>Softball</li>
+                                <li><span>Instruments</span><br>Guitar</li>
+                                <li><span>Scholarship</span><br>DOST Scholar</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+
+    <!-- ----------------images------------ -->
+    <div id="images">
+            <div class="container">
+                <nav>
+                    <ul>
+                        <li><a href="#header" onclick="showHome()" >Home</a></li>
+                        <li><a href="#about" onclick="showEducation()">About Me</a></li>
+                        <li><a href="#images" onclick="showImages()">Images</a></li>
+                        <li><a href="#contacts" onclick="showContacts()">Contact Me</a></li>
+                    </ul>
+                </nav>
+                <h1 class="me">Images</h1>
+                <div class="row">
+                    <div class="col1">
+                    <a href="images/img.jpg" target="_blank"> <img src="images/img.jpg" ></a>
+                    <a href="images/img1.jpg" target="_blank"> <img src="images/img1.jpg"></a>
+                    <a href="images/img4.jpg" target="_blank"><img src="images/img4.jpg" ></a>
+                    </div>
+                    <div class="col2">
+                    <a href="images/img6.jpg" target="_blank"><img src="images/img6.jpg" ></a>
+                    <a href="images/img9.JPEG" target="_blank"><img src="images/img9.JPEG" ></a>
+                    <a href="images/img10.JPG" target="_blank"><img src="images/img10.JPG" ></a>
+                    <a href="images/img14.jpg" target="_blank"><img src="images/img14.jpg" ></a>
+                    </div>
+                    <div class="col3">
+                    <a href="images/img11.JPG" target="_blank"><img src="images/img11.JPG" ></a>
+                    <a href="images/img12.JPG" target="_blank"><img src="images/img12.JPG" ></a>
+                    <a href="images/img13.JPG" target="_blank"><img src="images/img13.JPG" ></a>
+                    <a href="images/img15.JPEG" target="_blank"><img src="images/img15.JPEG"></a>
+                    </div>
+                </div>
+            </div>
+    </div>
+     <!-- ----------------contacts------------ -->
+    <div id="contacts">
+            <div class="container">
+                <nav>
+                    <ul>
+                        <li><a href="#header" onclick="showHome()" >Home</a></li>
+                        <li><a href="#about" onclick="showEducation()">About Me</a></li>
+                        <li><a href="#images" onclick="showImages()">Images</a></li>
+                        <li><a href="#contacts" onclick="showContacts()">Contact Me</a></li>
+                    </ul>
+                </nav>
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="me">Contact Me</h1>
+                        <p><i class="fa-regular fa-paper-plane"></i>nicanthony.adornado@g.msuiit.edu.ph</p>
+                        <p><i class="fa-solid fa-phone"></i>09354912896</p>
+                        <div class="icons">
+                            <a href="https://www.facebook.com/tosenarya.ratunil.1" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="https://www.facebook.com/tosenarya.ratunil.1" target="_blank"><i class="fa-brands fa-facebook-messenger"></i></a>
+                            <a href="https://twitter.com/predictedme" target="_blank"><i class="fa-brands fa-square-x-twitter"></i></a>
+                            <a href="https://www.instagram.com/nicnice.me/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        </div>
+                    </div>
+                    <div class="contact-right">
+                        <form>
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="text" name="email" placeholder="Your Email" required>
+                            <textarea name="message" placeholder="Your Message"  rows="6"></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+    </div>
+    <script src="styles/scripts.js"></script>
+    <script src="https://kit.fontawesome.com/bd77b3f7a0.js" crossorigin="anonymous"></script>
+</body>
+</html>
